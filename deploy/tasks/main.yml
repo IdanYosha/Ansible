@@ -1,0 +1,11 @@
+---
+
+- name: create directory
+  file:
+    path: /tmp/test1
+    state: directory
+
+- name: insert lines
+  copy:
+    dest: /tmp/test1/test1.txt
+    content: 'hello world'
