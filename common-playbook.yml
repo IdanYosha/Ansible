@@ -3,3 +3,5 @@
 - hosts: servers
   roles:
   - role: common
+  - role: deploy
+  - role: hostname
